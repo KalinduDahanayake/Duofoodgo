@@ -1,9 +1,10 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - Toggle
     - wardrobe
-    Unity.CollabProxy.Editor.dll:
-    - UnityEditor.CollabHistoryWindow
+    Unity.Mobile.AndroidLogcat.Editor.dll:
+    - Unity.Android.Logcat.AndroidLogcatManager
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.TextMeshPro.dll:
@@ -11,12 +12,6 @@ ScriptsOnlyBuild:
     - TMPro.TMP_Settings
     - TMPro.TMP_SpriteAsset
     - TMPro.TMP_StyleSheet
-    UnityEditor.Graphs.dll:
-    - UnityEditor.Graphs.AnimationBlendTree.Graph
-    - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.Graph
-    - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -74,6 +69,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 13688}
     - Class: 114
       Script: {instanceID: 13986}
+    - Class: 114
+      Script: {instanceID: 14050}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -521,6 +518,12 @@ ScriptsOnlyBuild:
     className: Slider
   - hash:
       serializedVersion: 2
+      Hash: 566a553be016d2a88a5e90af3199f232
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Toggle
+  - hash:
+      serializedVersion: 2
       Hash: 0fd6822f6177297bd0eb4d83cc7a9030
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -534,4 +537,4 @@ ScriptsOnlyBuild:
   platform: 9
   scenePathNames:
   - Assets/Scenes/Home screen.unity
-  playerPath: /Users/kalindudahanyake/Desktop/iOS DoufoodGo
+  playerPath: /Users/kalindudahanyake/Desktop/UnityBuilds/DuofoodGo
